@@ -510,13 +510,13 @@ pct_change_hatecrime_gap <- hatecrime_gap |> fmutate(growth = fgrowth(gap_hate))
 pct_change_overall_gap <- overall_gap |> fmutate(growth = fgrowth(gap_overall))
 
 # Percentage change from 1998 to 2020
-((0.2073551 - 0.1377380) / 0.1377380) * 100 #Burglary
-((0.5254450 - 0.3062733) / 0.3062733) * 100 #Mugging
-((0.13848539 - 0.04484664) / 0.04484664) * 100 #Car theft
-((-0.0160861523 - -0.0001639639) / -0.0001639639) * 100 #Theft from car
-((1.2023394 - 0.7325979) / 0.7325979) * 100 #Rape
-((0.6231035 - 0.3257932) / 0.3257932) * 100 #Assault
-((0.2727065 - 0.1471845) / 0.1471845) * 100 #Hate crime
+((2.71 - 2.29) / 2.29) * 100 #Burglary
+((2.477 - 2.037) / 2.037) * 100 #Mugging
+((2.673 - 2.062) / 2.062) * 100 #Car theft
+((2.585 - 2.058) / 2.058) * 100 #Theft from car
+((2.160 - 1.623) / 1.623) * 100 #Rape
+((2.427 - 2.010) / 2.010) * 100 #Assault
+((1.669 - 1.537) / 1.537) * 100 #Hate crime
 
 #Looking at significant worries in more detail
 #Is there a change in men's and women's worries or just among one gender?
