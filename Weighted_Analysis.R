@@ -217,7 +217,6 @@ ggplot(final, aes(x = year, group = 1)) +
 #### Analysis ####
 
 library(readxl)
-final <- read_excel("final_dataset20230625.xlsx")
 library(Kendall)
 library(xts)
 library(collapse)
